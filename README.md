@@ -2,7 +2,7 @@
 
 > Enter a GitHub username and get a savage — but genuinely useful — AI critique of the profile behind it.
 
-**[Live demo](https://su-gitroast.vercel.app)**
+**[Live demo](https://gitroast-mlx.vercel.app)**
 
 Most profile-feedback tools are polite enough to be useless. This one pulls a real profile from the GitHub REST API along with its ten most recently updated repositories, derives stats the model can actually be specific about (account age, total stars, forked-repo count, languages in play), and hands that summary to Llama 3.3 with instructions to roast it. The result comes back as structured JSON — a multi-paragraph roast, a made-up developer archetype, five numeric ratings, and three real improvement tips — so the UI can render it rather than dump a wall of text.
 
@@ -34,4 +34,4 @@ Requires `GROQ_API_KEY` in `.env.local`. The GitHub calls are unauthenticated an
 
 ---
 
-Part of a series of 91 small web apps. [Browse them all](https://su-slopmachine.vercel.app).
+Part of a series of 91 small web apps. [Browse them all](https://lorenzoylosada.vercel.app).
